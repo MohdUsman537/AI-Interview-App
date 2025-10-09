@@ -93,6 +93,7 @@ const LandingPage = () => {
       setOpenAuthModal(false);
       setCurrentPage("login");
     }}
+    hideHeader
     >
     
     <div>
@@ -101,6 +102,8 @@ const LandingPage = () => {
     </div>
 
     </Modal>
+
+    
 
   </>
   );
